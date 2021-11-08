@@ -1,5 +1,5 @@
 ## Movie Recommendation System (Website)
-Movie Recommendation System created using Collaborative Filtering (Website) and Content based Filtering (Jupyter Notebook).
+Movie Recommendation System created using Collaborative Filtering (Website) and Content based Filtering (Jupyter Notebook).Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
 
 ### Objectives
 
@@ -12,10 +12,16 @@ Movie Recommendation System created using Collaborative Filtering (Website) and 
 ### Dataset can be accessed from [here](https://grouplens.org/datasets/movielens/). 
   For redcuing the deployment time, data exploration followed by feature selection is done on the complete dataset.
 
-### Installation
-  1. In the shell/cmd, cd to the directory where requirements.txt is located.
-  2. activate your virtualenv. (if any)
-  3. run:   ``` pip install -r requirements.txt ```
+### Features of the System
+
+
+### Tech Stack
+  1. Python
+  2. Flask
+  3. JavaScript
+  4. Nltk
+
+### Novelty
 
 ### Flow Diagram
 <div align='center'>
@@ -23,9 +29,4 @@ Movie Recommendation System created using Collaborative Filtering (Website) and 
 </div>
 
 ### Deployment
-  - The application deployed can be accessed and tested directly from [here](https://recomovie-9604.herokuapp.com/) or https://recomovie-9604.herokuapp.com/
-
-### References
-  - https://github.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis
-
-NOTE* - This project is implemented with additional features and changes done to the reference link mentioned above.
+  - The application deployed can be accessed and tested directly from [here](https://recommedationmovie.herokuapp.com/) or https://recommedationmovie.herokuapp.com/
